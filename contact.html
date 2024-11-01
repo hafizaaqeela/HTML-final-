@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{ 
+        font-size: 20px;
+        display: flex;
+        gap: 50px;
+        background-color: #5b9bd5;
+        padding: 10px;
+        justify-content:center ;
+        align-items:center ;
+        border-radius: 40px;
+        padding-right: 250px;
+        flex-wrap: row;
+        }
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: black;
+        }
+        h1{
+            text-decoration: wavy;
+            text-transform: capitalize;
+            margin-right: 200px;
+        }
+</style>
+<body>
+    <div style="max-height: 80px;">
+        <p><img src="../assets/Screenshot 2024-10-27 093120.png" height="80px"></p>
+        <p style="font-size: 30px;"><a href="./home.html" target="_blank">home</a></p>
+        <p style="font-size: 30px;"><a href="./about.html" target="_blank">about</a></p>
+        <p style="font-size: 30px;"><a href="./portfolio.html" target="_blank">portfolio</a></p>
+        <p style="font-size: 30px;"><a href="./contact.html" target="_blank">contact</a></p>
+    </div>
+    <form style=" margin: 40px;">
+        <fieldset>
+            <legend>Your Details</legend>
+            <label for="Name">Name*:
+                <input type="text" placeholder="enter-your-name">
+            </label> <br>
+            <label for="Email">Email*:
+                <input style="margin-top: 10px;" type="email" placeholder="enter-your-email">
+            </label>
+        </fieldset>
+        <pre>
+        </pre>
+        <fieldset>
+            <legend>Your Review</legend>
+            <label>How did you hear about us?</label>
+            <select style="margin-bottom: 15px;">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Newspaper">Newspaper</option>
+                <option value="Friend-or-family">Friend or family</option>
+            </select> <br>
+            <label>Would you visit again?</label> <br>
+            <input type="radio" name="answre" value="Yes">Yes
+            <input type="radio" name="answre" value="No">No 
+            <input style="margin-bottom: 15px;" type="radio" name="answre" value="Maybe"> Maybe
+
+            <p>Comment: <br>
+                <textarea rows="5" cols="30"></textarea>
+            </p>
+            <input type="checkbox">Sign me up for email updates <br>
+            <input type="submit" name="create" value="Submit review">
+        </fieldset>
+    <pre>
+    </pre>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14478.843186186385!2d67.0362499!3d24.8737252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e5d664e5c47%3A0x59af50a7e6aeac9b!2sSaylani%20Welfare%20Numaish%20Branch!5e0!3m2!1sen!2s!4v1730368290509!5m2!1sen!2s" width="600" height="450"  style="border:0; margin-left: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </form>   
+    <div style="height: 10px;">
+        <p style="margin-right: 300px;"><center>Copyright © 2019. All rights reserved</center></p>
+    </div>
+    
+</body>
+</html>
